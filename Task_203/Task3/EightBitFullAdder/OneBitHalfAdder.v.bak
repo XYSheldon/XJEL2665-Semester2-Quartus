@@ -1,0 +1,14 @@
+module OneBitHalfAdder(
+	input a,
+	input b,
+	output x,
+	output c_out
+);
+
+	wire [2:0] w;
+	
+	nor(w[0],a,b);
+
+
+
+endmodule

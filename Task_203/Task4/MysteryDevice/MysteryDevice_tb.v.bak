@@ -1,0 +1,8 @@
+`timescale 1 ns/ 100 ps
+
+module MysteryDevice_tb;
+	
+	reg a,b,c,d,e,f;
+	wire x;
+
+endmodule

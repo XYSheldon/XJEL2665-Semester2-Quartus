@@ -1,0 +1,148 @@
+|EightBitFullAdder
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+c_in => c_in.IN1
+sum[0] << OneBitFullAdder:addbit1.port3
+sum[1] << ThreeBitFullAdder:add0.port3
+sum[2] << ThreeBitFullAdder:add0.port3
+sum[3] << ThreeBitFullAdder:add0.port3
+sum[4] << FourBitFullAdder:add1.port3
+sum[5] << FourBitFullAdder:add1.port3
+sum[6] << FourBitFullAdder:add1.port3
+sum[7] << FourBitFullAdder:add1.port3
+c_out << FourBitFullAdder:add1.port4
+
+
+|EightBitFullAdder|OneBitFullAdder:addbit1
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|ThreeBitFullAdder:add0
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+c_in => c_in.IN1
+sum[0] <= OneBitFullAdder:add0.port3
+sum[1] <= OneBitFullAdder:add1.port3
+sum[2] <= OneBitFullAdder:add2.port3
+c_out <= OneBitFullAdder:add2.port4
+
+
+|EightBitFullAdder|ThreeBitFullAdder:add0|OneBitFullAdder:add0
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|ThreeBitFullAdder:add0|OneBitFullAdder:add1
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|ThreeBitFullAdder:add0|OneBitFullAdder:add2
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|FourBitFullAdder:add1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+sum[0] <= OneBitFullAdder:add0.port3
+sum[1] <= OneBitFullAdder:add1.port3
+sum[2] <= OneBitFullAdder:add2.port3
+sum[3] <= OneBitFullAdder:add3.port3
+c_out <= OneBitFullAdder:add3.port4
+
+
+|EightBitFullAdder|FourBitFullAdder:add1|OneBitFullAdder:add0
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|FourBitFullAdder:add1|OneBitFullAdder:add1
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|FourBitFullAdder:add1|OneBitFullAdder:add2
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|FourBitFullAdder:add1|OneBitFullAdder:add3
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

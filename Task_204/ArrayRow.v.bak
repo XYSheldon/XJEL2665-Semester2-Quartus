@@ -1,0 +1,11 @@
+//Array Row
+module ArrayRow(
+	input[7:0] a,
+	input b,
+	input[7:0] s_in,
+	output[7:0] s_out,
+	output c_out
+	
+);
+
+endmodule

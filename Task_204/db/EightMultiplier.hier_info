@@ -1,0 +1,1365 @@
+|EightMultiplier
+a[0] => a[0].IN7
+a[1] => a[1].IN7
+a[2] => a[2].IN7
+a[3] => a[3].IN7
+a[4] => a[4].IN7
+a[5] => a[5].IN7
+a[6] => a[6].IN7
+a[7] => a[7].IN7
+b[0] => comb.IN0
+b[0] => comb.IN0
+b[0] => comb.IN0
+b[0] => comb.IN0
+b[0] => comb.IN0
+b[0] => comb.IN0
+b[0] => comb.IN0
+b[0] => comb.IN0
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+p[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+p[1] <= ArrayRow:r0.port3
+p[2] <= ArrayRow:r1.port3
+p[3] <= ArrayRow:r2.port3
+p[4] <= ArrayRow:r3.port3
+p[5] <= ArrayRow:r4.port3
+p[6] <= ArrayRow:r5.port3
+p[7] <= ArrayRow:r6.port3
+p[8] <= ArrayRow:r6.port3
+p[9] <= ArrayRow:r6.port3
+p[10] <= ArrayRow:r6.port3
+p[11] <= ArrayRow:r6.port3
+p[12] <= ArrayRow:r6.port3
+p[13] <= ArrayRow:r6.port3
+p[14] <= ArrayRow:r6.port3
+p[15] <= ArrayRow:r6.port4
+
+
+|EightMultiplier|ArrayRow:r0
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+b => b.IN8
+s_in[0] => s_in[0].IN1
+s_in[1] => s_in[1].IN1
+s_in[2] => s_in[2].IN1
+s_in[3] => s_in[3].IN1
+s_in[4] => s_in[4].IN1
+s_in[5] => s_in[5].IN1
+s_in[6] => s_in[6].IN1
+s_in[7] => s_in[7].IN1
+s_out[0] <= ArrayCell:c0.port4
+s_out[1] <= ArrayCell:c1.port4
+s_out[2] <= ArrayCell:c2.port4
+s_out[3] <= ArrayCell:c3.port4
+s_out[4] <= ArrayCell:c4.port4
+s_out[5] <= ArrayCell:c5.port4
+s_out[6] <= ArrayCell:c6.port4
+s_out[7] <= ArrayCell:c7.port4
+c_out <= ArrayCell:c7.port5
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c0
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c0|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c1
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c1|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c2
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c2|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c3
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c3|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c4
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c4|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c5
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c5|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c6
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c6|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c7
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r0|ArrayCell:c7|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+b => b.IN8
+s_in[0] => s_in[0].IN1
+s_in[1] => s_in[1].IN1
+s_in[2] => s_in[2].IN1
+s_in[3] => s_in[3].IN1
+s_in[4] => s_in[4].IN1
+s_in[5] => s_in[5].IN1
+s_in[6] => s_in[6].IN1
+s_in[7] => s_in[7].IN1
+s_out[0] <= ArrayCell:c0.port4
+s_out[1] <= ArrayCell:c1.port4
+s_out[2] <= ArrayCell:c2.port4
+s_out[3] <= ArrayCell:c3.port4
+s_out[4] <= ArrayCell:c4.port4
+s_out[5] <= ArrayCell:c5.port4
+s_out[6] <= ArrayCell:c6.port4
+s_out[7] <= ArrayCell:c7.port4
+c_out <= ArrayCell:c7.port5
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c0
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c0|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c1
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c1|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c2
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c2|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c3
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c3|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c4
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c4|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c5
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c5|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c6
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c6|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c7
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r1|ArrayCell:c7|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r2
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+b => b.IN8
+s_in[0] => s_in[0].IN1
+s_in[1] => s_in[1].IN1
+s_in[2] => s_in[2].IN1
+s_in[3] => s_in[3].IN1
+s_in[4] => s_in[4].IN1
+s_in[5] => s_in[5].IN1
+s_in[6] => s_in[6].IN1
+s_in[7] => s_in[7].IN1
+s_out[0] <= ArrayCell:c0.port4
+s_out[1] <= ArrayCell:c1.port4
+s_out[2] <= ArrayCell:c2.port4
+s_out[3] <= ArrayCell:c3.port4
+s_out[4] <= ArrayCell:c4.port4
+s_out[5] <= ArrayCell:c5.port4
+s_out[6] <= ArrayCell:c6.port4
+s_out[7] <= ArrayCell:c7.port4
+c_out <= ArrayCell:c7.port5
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c0
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c0|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c1
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c1|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c2
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c2|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c3
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c3|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c4
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c4|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c5
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c5|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c6
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c6|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c7
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r2|ArrayCell:c7|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r3
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+b => b.IN8
+s_in[0] => s_in[0].IN1
+s_in[1] => s_in[1].IN1
+s_in[2] => s_in[2].IN1
+s_in[3] => s_in[3].IN1
+s_in[4] => s_in[4].IN1
+s_in[5] => s_in[5].IN1
+s_in[6] => s_in[6].IN1
+s_in[7] => s_in[7].IN1
+s_out[0] <= ArrayCell:c0.port4
+s_out[1] <= ArrayCell:c1.port4
+s_out[2] <= ArrayCell:c2.port4
+s_out[3] <= ArrayCell:c3.port4
+s_out[4] <= ArrayCell:c4.port4
+s_out[5] <= ArrayCell:c5.port4
+s_out[6] <= ArrayCell:c6.port4
+s_out[7] <= ArrayCell:c7.port4
+c_out <= ArrayCell:c7.port5
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c0
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c0|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c1
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c1|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c2
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c2|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c3
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c3|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c4
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c4|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c5
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c5|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c6
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c6|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c7
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r3|ArrayCell:c7|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r4
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+b => b.IN8
+s_in[0] => s_in[0].IN1
+s_in[1] => s_in[1].IN1
+s_in[2] => s_in[2].IN1
+s_in[3] => s_in[3].IN1
+s_in[4] => s_in[4].IN1
+s_in[5] => s_in[5].IN1
+s_in[6] => s_in[6].IN1
+s_in[7] => s_in[7].IN1
+s_out[0] <= ArrayCell:c0.port4
+s_out[1] <= ArrayCell:c1.port4
+s_out[2] <= ArrayCell:c2.port4
+s_out[3] <= ArrayCell:c3.port4
+s_out[4] <= ArrayCell:c4.port4
+s_out[5] <= ArrayCell:c5.port4
+s_out[6] <= ArrayCell:c6.port4
+s_out[7] <= ArrayCell:c7.port4
+c_out <= ArrayCell:c7.port5
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c0
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c0|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c1
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c1|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c2
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c2|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c3
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c3|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c4
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c4|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c5
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c5|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c6
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c6|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c7
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r4|ArrayCell:c7|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r5
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+b => b.IN8
+s_in[0] => s_in[0].IN1
+s_in[1] => s_in[1].IN1
+s_in[2] => s_in[2].IN1
+s_in[3] => s_in[3].IN1
+s_in[4] => s_in[4].IN1
+s_in[5] => s_in[5].IN1
+s_in[6] => s_in[6].IN1
+s_in[7] => s_in[7].IN1
+s_out[0] <= ArrayCell:c0.port4
+s_out[1] <= ArrayCell:c1.port4
+s_out[2] <= ArrayCell:c2.port4
+s_out[3] <= ArrayCell:c3.port4
+s_out[4] <= ArrayCell:c4.port4
+s_out[5] <= ArrayCell:c5.port4
+s_out[6] <= ArrayCell:c6.port4
+s_out[7] <= ArrayCell:c7.port4
+c_out <= ArrayCell:c7.port5
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c0
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c0|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c1
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c1|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c2
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c2|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c3
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c3|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c4
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c4|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c5
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c5|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c6
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c6|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c7
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r5|ArrayCell:c7|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r6
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+b => b.IN8
+s_in[0] => s_in[0].IN1
+s_in[1] => s_in[1].IN1
+s_in[2] => s_in[2].IN1
+s_in[3] => s_in[3].IN1
+s_in[4] => s_in[4].IN1
+s_in[5] => s_in[5].IN1
+s_in[6] => s_in[6].IN1
+s_in[7] => s_in[7].IN1
+s_out[0] <= ArrayCell:c0.port4
+s_out[1] <= ArrayCell:c1.port4
+s_out[2] <= ArrayCell:c2.port4
+s_out[3] <= ArrayCell:c3.port4
+s_out[4] <= ArrayCell:c4.port4
+s_out[5] <= ArrayCell:c5.port4
+s_out[6] <= ArrayCell:c6.port4
+s_out[7] <= ArrayCell:c7.port4
+c_out <= ArrayCell:c7.port5
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c0
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c0|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c1
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c1|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c2
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c2|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c3
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c3|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c4
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c4|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c5
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c5|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c6
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c6|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c7
+a => comb.IN0
+b => comb.IN1
+s_in => s_in.IN1
+c_in => c_in.IN1
+s <= OneBitFullAdder:adder.port3
+c_out <= OneBitFullAdder:adder.port4
+
+
+|EightMultiplier|ArrayRow:r6|ArrayCell:c7|OneBitFullAdder:adder
+a => w[0].IN0
+a => w[2].IN0
+b => w[0].IN1
+b => w[2].IN1
+c_in => comb.IN1
+c_in => w[1].IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

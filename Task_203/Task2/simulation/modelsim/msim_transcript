@@ -1,0 +1,88 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Task2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/XJEL2665_Quartus/Task_203/Task2 {D:/XJEL2665_Quartus/Task_203/Task2/OneBitFullAdder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:24:59 on Dec 22,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/XJEL2665_Quartus/Task_203/Task2" D:/XJEL2665_Quartus/Task_203/Task2/OneBitFullAdder.v 
+# -- Compiling module OneBitFullAdder
+# 
+# Top level modules:
+# 	OneBitFullAdder
+# End time: 14:24:59 on Dec 22,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/XJEL2665_Quartus/Task_203/Task2 {D:/XJEL2665_Quartus/Task_203/Task2/ThreeBitFullAdder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:24:59 on Dec 22,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/XJEL2665_Quartus/Task_203/Task2" D:/XJEL2665_Quartus/Task_203/Task2/ThreeBitFullAdder.v 
+# -- Compiling module ThreeBitFullAdder
+# 
+# Top level modules:
+# 	ThreeBitFullAdder
+# End time: 14:24:59 on Dec 22,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/XJEL2665_Quartus/Task_203/Task2 {D:/XJEL2665_Quartus/Task_203/Task2/FourBitFullAdder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:24:59 on Dec 22,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/XJEL2665_Quartus/Task_203/Task2" D:/XJEL2665_Quartus/Task_203/Task2/FourBitFullAdder.v 
+# -- Compiling module FourBitFullAdder
+# 
+# Top level modules:
+# 	FourBitFullAdder
+# End time: 14:24:59 on Dec 22,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/XJEL2665_Quartus/Task_203/Task2 {D:/XJEL2665_Quartus/Task_203/Task2/EightBitFullAdder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:24:59 on Dec 22,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/XJEL2665_Quartus/Task_203/Task2" D:/XJEL2665_Quartus/Task_203/Task2/EightBitFullAdder.v 
+# -- Compiling module EightBitFullAdder
+# 
+# Top level modules:
+# 	EightBitFullAdder
+# End time: 14:24:59 on Dec 22,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/XJEL2665_Quartus/Task_203/Task2 {D:/XJEL2665_Quartus/Task_203/Task2/EightBitFullAdder_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:25:00 on Dec 22,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/XJEL2665_Quartus/Task_203/Task2" D:/XJEL2665_Quartus/Task_203/Task2/EightBitFullAdder_tb.v 
+# -- Compiling module EightBitFullAdder_tb
+# 
+# Top level modules:
+# 	EightBitFullAdder_tb
+# End time: 14:25:00 on Dec 22,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  EightBitFullAdder_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" EightBitFullAdder_tb 
+# Start time: 14:25:00 on Dec 22,2019
+# Loading work.EightBitFullAdder_tb
+# Loading work.EightBitFullAdder
+# Loading work.FourBitFullAdder
+# Loading work.OneBitFullAdder
+# Loading work.ThreeBitFullAdder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# C_in = 0
+# C_in = 1
+# ** Note: $stop    : D:/XJEL2665_Quartus/Task_203/Task2/EightBitFullAdder_tb.v(41)
+#    Time: 1310720 ns  Iteration: 0  Instance: /EightBitFullAdder_tb
+# Break in Module EightBitFullAdder_tb at D:/XJEL2665_Quartus/Task_203/Task2/EightBitFullAdder_tb.v line 41
+add wave -position end  sim:/#vsim_capacity#/classes.Peak
+noforce sim:/#vsim_capacity#/classes.Peak
+# End time: 14:28:21 on Dec 22,2019, Elapsed time: 0:03:21
+# Errors: 0, Warnings: 0

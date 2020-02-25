@@ -1,0 +1,12 @@
+module ThreeBitFullAdder(
+	input [2:0] a,
+	input [2:0] b,
+	input c_in,
+	output [2:0] sum,
+	output c_out
+);
+
+	OneBitFullAdder adder1(
+	);
+	
+endmodule

@@ -1,0 +1,125 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/simulation/modelsim
+vEightBitFullAdder
+Z1 !s110 1576997745
+!i10b 1
+!s100 JPTZG`[N9_e2JXKGfTi`c3
+I@Dol]>mOkIGAkYLiT942D3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1576996693
+8D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/EightBitFullAdder.v
+FD:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/EightBitFullAdder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1576997745.000000
+!s107 D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/EightBitFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder|D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/EightBitFullAdder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder
+Z7 tCvgOpt 0
+n@eight@bit@full@adder
+vEightBitFullAdder_tb
+!s110 1576997746
+!i10b 1
+!s100 iZJY`U8Cga]8bYa2gZiiC0
+I6JXZSzmTN0mWO:DVJDA?i1
+R2
+R0
+w1576995727
+8D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/EightBitFullAdder_tb.v
+FD:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/EightBitFullAdder_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1576997746.000000
+!s107 D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/EightBitFullAdder_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder|D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/EightBitFullAdder_tb.v|
+!i113 1
+R5
+R6
+R7
+n@eight@bit@full@adder_tb
+vFourBitFullAdder
+R1
+!i10b 1
+!s100 z9aOOcABmJ@V<ennZII9C0
+I8Vo:=PDR?CObBAkMUm56L0
+R2
+R0
+w1573628564
+8D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/FourBitFullAdder.v
+FD:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/FourBitFullAdder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/FourBitFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder|D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/FourBitFullAdder.v|
+!i113 1
+R5
+R6
+R7
+n@four@bit@full@adder
+vOneBitFullAdder
+R1
+!i10b 1
+!s100 4;ebI?bZnh_Q[X3z^4i523
+IhIiDh5cE64cQd;1>kdMY<2
+R2
+R0
+w1576997640
+8D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/OneBitFullAdder.v
+FD:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/OneBitFullAdder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/OneBitFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder|D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/OneBitFullAdder.v|
+!i113 1
+R5
+R6
+R7
+n@one@bit@full@adder
+vThreeBitFullAdder
+R1
+!i10b 1
+!s100 A<OK_]7]_6W0>9?7H:RaD2
+Ik^9>2Wnh4<DII__9ATIXT2
+R2
+R0
+w1573628228
+8D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/ThreeBitFullAdder.v
+FD:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/ThreeBitFullAdder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/ThreeBitFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder|D:/XJEL2665_Quartus/Task_203/Task3/EightBitFullAdder/ThreeBitFullAdder.v|
+!i113 1
+R5
+R6
+R7
+n@three@bit@full@adder

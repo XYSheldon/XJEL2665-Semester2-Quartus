@@ -1,0 +1,125 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/simulation/modelsim
+vArrayCell
+Z1 !s110 1582628836
+!i10b 1
+!s100 VlimX]zfGeVRM19]c^>D?2
+I8N2Lk=jz;1XP^eHL=eFVL3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1582622560
+8C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/ArrayCell.v
+FC:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/ArrayCell.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1582628836.000000
+!s107 C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/ArrayCell.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204|C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/ArrayCell.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204
+Z7 tCvgOpt 0
+n@array@cell
+vArrayRow
+R1
+!i10b 1
+!s100 LeNiY32=169L3izPRj>1h1
+IU2^4@kJEfMHdjoHZ?3cF]1
+R2
+R0
+w1582622008
+8C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/ArrayRow.v
+FC:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/ArrayRow.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/ArrayRow.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204|C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/ArrayRow.v|
+!i113 1
+R5
+R6
+R7
+n@array@row
+vEightMultiplier
+Z8 !s110 1582628837
+!i10b 1
+!s100 OW_ddKgP>A9W6eiPnVemD0
+IFPiBGeX00dW8_KnPK3Kla3
+R2
+R0
+w1582628707
+8C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/EightMultiplier.v
+FC:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/EightMultiplier.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z9 !s108 1582628837.000000
+!s107 C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/EightMultiplier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204|C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/EightMultiplier.v|
+!i113 1
+R5
+R6
+R7
+n@eight@multiplier
+vEightMultiplier_tb
+R8
+!i10b 1
+!s100 ibC7DQAhfUe7>KBZ19_9Q2
+IBFeZ]2kGX<EG_a^FS06<:0
+R2
+R0
+w1582628445
+8C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/EightMultiplier_tb.v
+FC:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/EightMultiplier_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/EightMultiplier_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204|C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/EightMultiplier_tb.v|
+!i113 1
+R5
+R6
+R7
+n@eight@multiplier_tb
+vOneBitFullAdder
+R1
+!i10b 1
+!s100 4;ebI?bZnh_Q[X3z^4i523
+I6^CSgeKM3W6k:mTl>RZ4Z0
+R2
+R0
+w1576997642
+8C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/OneBitFullAdder.v
+FC:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/OneBitFullAdder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/OneBitFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204|C:/Users/x1418/Desktop/XJEL2665_Tasks_Quartus/Task_204/OneBitFullAdder.v|
+!i113 1
+R5
+R6
+R7
+n@one@bit@full@adder

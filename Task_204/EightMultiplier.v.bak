@@ -1,0 +1,6 @@
+//Eight bit unsigned interger multiplier
+module(
+	input [7:0] a,
+	input [7:0] b,
+	output [15:0] p
+);
