@@ -1,0 +1,19 @@
+module Task2(
+	input a,b,c,d,
+	output x,y);
+	
+reg w1,w2;
+
+always @* begin
+	
+	w1=a;
+	w2=b;
+	
+end
+
+
+assign x=w1;
+assign y=w2;
+	
+
+endmodule

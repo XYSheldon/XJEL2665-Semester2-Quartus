@@ -1,0 +1,13 @@
+|Task2
+a => w1.IN1
+a => w2.IN0
+b => w2.IN0
+b => w1.IN0
+b => w2.IN1
+c => w1.IN1
+c => w2.IN1
+d => w2.IN1
+x << w1.DB_MAX_OUTPUT_PORT_TYPE
+y << w2.DB_MAX_OUTPUT_PORT_TYPE
+
+

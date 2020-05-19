@@ -1,0 +1,28 @@
+`timescale 1 ns/ 100 ps
+
+module B2BCD_tb;
+
+	reg [3:0] sw;
+	wire [4:0] out;
+	
+	Task1 dut(
+		sw,
+		out
+	);
+	
+	integer i;
+	integer x_expected,y_expected;
+
+	initial
+	begin
+		for (i=0;i<16;i=i+1)
+		begin
+			sw=i;
+			#10;
+			
+		end
+		
+		$stop;
+	end
+	
+endmodule

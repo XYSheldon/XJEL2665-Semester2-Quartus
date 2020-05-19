@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/x1418/Desktop/Task_206/Task1/simulation/modelsim
+vBCD2Seg
+Z1 !s110 1589869540
+!i10b 1
+!s100 eGDDhc4i026<<7J0zeG:Z0
+I_?l0P=Q]f6nA8Xd87lSR?1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1589869525
+Z4 8Task1.vo
+Z5 FTask1.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1589869540.000000
+Z8 !s107 Task1.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Task1.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+n@b@c@d2@seg
+vBCD2Seg_tb
+R1
+!i10b 1
+!s100 bEO?cTE]fV5REfH?FSZO_0
+I`d2C8VSjAK[<UH<[ZM6D@3
+R2
+R0
+w1589868584
+8C:/Users/x1418/Desktop/Task_206/Task1/BCD2Seg_tb.v
+FC:/Users/x1418/Desktop/Task_206/Task1/BCD2Seg_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/x1418/Desktop/Task_206/Task1/BCD2Seg_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/x1418/Desktop/Task_206/Task1|C:/Users/x1418/Desktop/Task_206/Task1/BCD2Seg_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/x1418/Desktop/Task_206/Task1
+R12
+n@b@c@d2@seg_tb
+vhard_block
+R1
+!i10b 1
+!s100 hiclGCg3776Y5cMB@]mF:0
+Ie]F9Xk<=ToE>^ohC;fSbc1
+R2
+R0
+R3
+R4
+R5
+L0 440
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

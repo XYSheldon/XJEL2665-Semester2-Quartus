@@ -1,0 +1,5 @@
+module display(
+	input [3:0] sw;
+	output [7:0] HEX0;
+	output [7:0] HEX1;
+);

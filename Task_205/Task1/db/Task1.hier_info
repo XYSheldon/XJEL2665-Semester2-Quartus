@@ -1,0 +1,15 @@
+|Task1
+a[0] => comb.IN0
+a[1] => comb.IN1
+a[2] => comb.IN0
+a[3] => comb.IN1
+a[4] => comb.IN0
+a[5] => comb.IN1
+a[6] => comb.IN0
+a[7] => comb.IN1
+led[0] << comb.DB_MAX_OUTPUT_PORT_TYPE
+led[1] << comb.DB_MAX_OUTPUT_PORT_TYPE
+led[2] << comb.DB_MAX_OUTPUT_PORT_TYPE
+led[3] << comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

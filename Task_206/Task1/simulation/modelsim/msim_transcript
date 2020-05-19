@@ -1,0 +1,53 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Task1_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {Task1.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:25:40 on May 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." Task1.vo 
+# -- Compiling module BCD2Seg
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	BCD2Seg
+# End time: 14:25:40 on May 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/x1418/Desktop/Task_206/Task1 {C:/Users/x1418/Desktop/Task_206/Task1/BCD2Seg_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:25:40 on May 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/x1418/Desktop/Task_206/Task1" C:/Users/x1418/Desktop/Task_206/Task1/BCD2Seg_tb.v 
+# -- Compiling module BCD2Seg_tb
+# 
+# Top level modules:
+# 	BCD2Seg_tb
+# End time: 14:25:40 on May 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  BCD2Seg_tb
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" BCD2Seg_tb 
+# Start time: 14:25:40 on May 19,2020
+# Loading work.BCD2Seg_tb
+# Loading work.BCD2Seg
+# Loading work.hard_block
+# ** Warning: (vsim-3017) Task1.vo(402): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /BCD2Seg_tb/dut/\~QUARTUS_CREATED_ADC1~  File: nofile
+# ** Warning: (vsim-3722) Task1.vo(402): [TFMPC] - Missing connection for port 'clk_dft'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 14:27:19 on May 19,2020, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 2
